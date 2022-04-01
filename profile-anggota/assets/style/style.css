@@ -1,0 +1,50 @@
+.card {
+    margin-top: 2em;
+    text-align: center;
+    box-shadow: 11px 10px 15px 0px rgba(0, 0, 0, 0.75);
+    background: #00BFA6;
+    background: -webkit-linear-gradient(to right, #00BFA6, #8dc7c0);
+    background: linear-gradient(to right, #00BFA6, #8dc7c0);
+}
+
+.card:hover {
+    margin-top: 2em;
+    text-align: center;
+    box-shadow: 11px 10px 15px 0px rgba(0, 0, 0, 0.75);
+    background: rgb(5, 128, 111);
+    background: -webkit-linear-gradient(to right, rgb(5, 128, 111), #8dc7c0);
+    background: linear-gradient(to right, rgb(5, 128, 111), #8dc7c0);
+}
+
+.card .card-title {
+    font-weight: 700;
+    font-size: 1.5em;
+}
+
+.contacts-social a {
+    font-size: 16px;
+    width: 36px;
+    height: 36px;
+    line-height: 36px;
+    background: #ffffff;
+    border: 1px solid #eeecec;
+    text-align: center;
+    border-radius: 50%;
+    color: #2b2a2a;
+}
+
+.bg-instagram {
+    background: linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d) !important;
+}
+
+.bg-facebook {
+    background: linear-gradient(120deg, #3b5998, #a7a3bb) !important;
+}
+
+.bg-github {
+    background: linear-gradient(120deg, #554488, #e24329, #fc6d26, #fca326) !important;
+}
+
+.card .btn {
+    padding: 0.5em 1.5em;
+}
